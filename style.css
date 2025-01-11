@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color:cadetblue;
+    color: black;
+    display: flex;
+    font-weight: bold;
+}
+
+nav{
+    padding-top: 15px;
+    padding-left: 12px;
+    font-size: 35px;
+    /* text-decoration: wavy; */
+    /* text-underline-position: below; */
+}
+
+main{
+    width: 100%;
+    background-color: antiquewhite;
+}
+header img{
+    width: 60px;
+    height: 60px;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+    padding: 6px;
+}
+
+.x{
+    font-size: 15px;
+}
+.container{
+    font-size: 19px;
+    padding: 6px;
+}
+
+.class{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 23px;
+    padding-left: 50px;
+
+}
+
+.room{
+    font-weight: bold;
+    text-decoration: aliceblue;
+    display: inline;
+}
+
+.room img{
+    width: 43px;
+    padding-top: 9px;
+}
+footer{
+    font-weight: bold;
+    text-align: center;
+    padding: 1px;
+    background-color: cadetblue;
+}
+
+@media screen and (max-width: 481px) {
+
+    /* *{
+        float: left;
+        padding: 0;
+        width: 94%;
+        margin: 3%;
+    } */
+    body{
+        background-color:bisque;
+    }
+    
+    header{
+        padding: 0px;
+        margin: auto;
+        display: flex;
+    }
+    .container{
+        font-size: 15px;
+        padding: 2px;
+    }
+}
+    /* nav{
+        flex-direction: column;
+    } */
+
+    /* .logo{
+        padding: 6px 0;
+       font-size: 12px;
+    }
+
+    .logo img{ 
+        width: 20px;
+        /* filter: invert(1); */
+    /* }
+
+    .logo span{
+        font-size: 20px;
+    } */ 

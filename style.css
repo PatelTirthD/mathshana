@@ -4,7 +4,7 @@
 }
 
 header{
-    background-color:cadetblue;
+    background-color:rgba(159, 158, 158, 0.947);;
     color: black;
     display: flex;
     font-weight: bold;
@@ -57,14 +57,22 @@ header img{
     width: 43px;
     padding-top: 9px;
 }
+
+.s img{
+    /* padding-left: 600px; */
+    border-radius: 20px;
+    height: auto;
+    width: 90px;
+}
+
 footer{
     font-weight: bold;
     text-align: center;
     padding: 1px;
-    background-color: cadetblue;
+    background-color: rgba(169, 166, 166, 0.947);;
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 300px) {
 
     /* *{
         float: left;
